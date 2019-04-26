@@ -1,7 +1,7 @@
 <?php
 
-use Step\Acceptance\First as FirstStep;
-class FirstCest
+use Step\Acceptance\LoginAsAdmin as FirstPage;
+class UI_LI_06Cest
 
 {
     public function _before(AcceptanceTester $I)
@@ -13,9 +13,8 @@ class FirstCest
      */
 
     // tests
-    public function checkDefaultFocus(FirstStep $I)
+    public function checkContinueButton(FirstPage $I)
     {
         $I->loginAsAdmin('nguyenxuanan1197@gmail.com');
-        $I->waitForElementVisible('//input[@name="password"]',3);
     }
 }

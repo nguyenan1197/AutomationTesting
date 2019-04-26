@@ -62,17 +62,17 @@
     },
     {
         "name": "codeception/codeception",
-        "version": "2.5.5",
-        "version_normalized": "2.5.5.0",
+        "version": "2.5.6",
+        "version_normalized": "2.5.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Codeception/Codeception.git",
-            "reference": "547a64cb31edcf1902b296c511f5ca74101bcb4c"
+            "reference": "b83a9338296e706fab2ceb49de8a352fbca3dc98"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeception/Codeception/zipball/547a64cb31edcf1902b296c511f5ca74101bcb4c",
-            "reference": "547a64cb31edcf1902b296c511f5ca74101bcb4c",
+            "url": "https://api.github.com/repos/Codeception/Codeception/zipball/b83a9338296e706fab2ceb49de8a352fbca3dc98",
+            "reference": "b83a9338296e706fab2ceb49de8a352fbca3dc98",
             "shasum": ""
         },
         "require": {
@@ -118,7 +118,7 @@
             "stecman/symfony-console-completion": "For BASH autocompletion",
             "symfony/phpunit-bridge": "For phpunit-bridge support"
         },
-        "time": "2019-03-23T17:57:45+00:00",
+        "time": "2019-04-24T11:28:19+00:00",
         "bin": [
             "codecept"
         ],
@@ -2491,17 +2491,17 @@
     },
     {
         "name": "sebastian/environment",
-        "version": "4.1.0",
-        "version_normalized": "4.1.0.0",
+        "version": "4.2.1",
+        "version_normalized": "4.2.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/environment.git",
-            "reference": "6fda8ce1974b62b14935adc02a9ed38252eca656"
+            "reference": "3095910f0f0fb155ac4021fc51a4a7a39ac04e8a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6fda8ce1974b62b14935adc02a9ed38252eca656",
-            "reference": "6fda8ce1974b62b14935adc02a9ed38252eca656",
+            "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/3095910f0f0fb155ac4021fc51a4a7a39ac04e8a",
+            "reference": "3095910f0f0fb155ac4021fc51a4a7a39ac04e8a",
             "shasum": ""
         },
         "require": {
@@ -2513,11 +2513,11 @@
         "suggest": {
             "ext-posix": "*"
         },
-        "time": "2019-02-01T05:27:49+00:00",
+        "time": "2019-04-25T07:55:20+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "4.1-dev"
+                "dev-master": "4.2-dev"
             }
         },
         "installation-source": "dist",
